@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@octokit/core": "^6.1.4",
     "@popperjs/core": "^2.11.8",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.8.4",
     "bootstrap": "^5.3.5",
+    "lucide-react": "^0.487.0",
     "react": "^19.1.0",
     "react-bootstrap-icons": "^1.11.5",
     "react-dom": "^19.1.0",
