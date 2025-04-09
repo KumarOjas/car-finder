@@ -5,6 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #212529;
+  --bs-body-color: #f8f9fa;
+  --bs-light: #343a40;
+  --bs-dark: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #2c3034;
+  border-color: #495057;
+}
+
+[data-bs-theme="dark"] .card-body {
+  color: #e9ecef;
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: #212529 !important;
+  border-bottom: 1px solid #495057;
+}
+
+[data-bs-theme="dark"] .btn-outline-primary {
+  --bs-btn-color: #86b7fe;
+  --bs-btn-border-color: #86b7fe;
+  --bs-btn-hover-bg: #0d6efd;
+}
+
+[data-bs-theme="dark"] .btn-outline-secondary {
+  --bs-btn-color: #adb5bd;
+  --bs-btn-border-color: #adb5bd;
+  --bs-btn-hover-bg: #6c757d;
 }
 
 code {
